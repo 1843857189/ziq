@@ -9,8 +9,8 @@ a{
 .A{
 	width: 100%;
 	margin: 0 auto;
-	/* background-color: #40AD43; */
-	background-image: url(../images/20180511135850_zdV2F.png);
+	background-color: #8096e2;
+	/* background-image: url(../images/20180511135850_zdV2F.png); */
 	background-attachment:fixed;
 }
 .B span{
@@ -66,7 +66,7 @@ p{
 .B{
 	width: 960px;
 	height: 80px;
-	background-color: rgba(255,127,80,0.9);
+	background-color: rgba(255,127,80,1);
 	margin:auto;
 	border-radius: 20px;
 }
@@ -122,7 +122,7 @@ p{
 	width: 920px;
 	height: 720px;
 	margin:0 auto;
-	background-color: rgba(222,184,135,0.6);
+	background-color: #e4e8f4;/* rgba(222,184,135,0.6); */
 	border-radius: 20px;
 	padding-left: 40px;
 }
@@ -163,7 +163,7 @@ p{
 /* 产品分类 */
 .list-right{
 	float: right;
-	background-color: rgba(255,127,80,0.9);
+	background-color: rgba(255,127,80,0.8);
 	width: 160px;
 	right: 400px;
 	border-radius: 20px;
@@ -185,7 +185,7 @@ p{
 /* 特别提示 */
 .list-bottom{
 	float: right;
-	background-color: rgba(255,127,80,0.9);
+	background-color: rgba(255,127,80,0.8);
 	width: 160px;
 	height: 120px;
 	border-radius: 20px;
@@ -208,6 +208,9 @@ p{
 #ss3:hover{
 	color: black;
 }
+.A2 img:hover{
+	transform: scale(1.1,1.1);
+}
 .list ul li:hover{
 	transform: scale(1.2,1.2);
 }
@@ -224,10 +227,6 @@ p{
 	float: right;
 	margin: 1px 3px;
 }
-/* .link a img{
-	transform:rotateY(0deg);
-	transition: 0.3s;
-} */
 .link ul li a img:hover{
 	transform: scale(1.02,1.02);
 }
@@ -235,7 +234,7 @@ p{
 .A3{
 	width: 960px;
 	height: 720px;
-	background-color: rgba(222,184,135,0.6);
+	background-color: #e4e8f4;/* rgba(222,184,135,0.6); */
 	margin:20px auto;
 	border-radius: 20px;
 }
@@ -332,9 +331,9 @@ p{
 /* 页尾部分 */
 .footer{
 	width: 959px;
-	height: 80px;
+	height: 70px;
 	border-radius: 20px;
-	background-color: rgba(225,127,80,0.9);
+	background-color: rgba(225,127,80,1);
 	margin: 20px auto 0;
 	padding-top:2px;
 	/* clear: both; *//* 清除全部样式 */
