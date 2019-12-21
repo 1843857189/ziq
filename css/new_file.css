@@ -9,7 +9,7 @@ a{
 .A{
 	width: 100%;
 	margin: 0 auto;
-	background-color: #8096e2;
+	background-color: #a5bbfb;
 	/* background-image: url(../images/20180511135850_zdV2F.png); */
 	background-attachment:fixed;
 }
@@ -50,6 +50,7 @@ p{
 	background:white;
 	text-align: center;
 	font-size: 10px;
+	box-shadow:3px 4px 10px 0 rgba(0,0,0,0.5),0 6px 20px 0 rgba(0,0,0,0.18);
 }
 .list-top button {
 	background:#c5464a;
@@ -69,6 +70,7 @@ p{
 	background-color: rgba(255,127,80,1);
 	margin:auto;
 	border-radius: 20px;
+	box-shadow:0 8px 16px 0 rgba(0,0,0,0.5),0 6px 20px 0 rgba(0,0,0,0.3);
 }
 .logo{
 	float: left;
@@ -120,11 +122,12 @@ p{
 /* 今日推荐 */
 .A2{
 	width: 920px;
-	height: 720px;
+	height: 750px;
 	margin:0 auto;
 	background-color: #e4e8f4;/* rgba(222,184,135,0.6); */
-	border-radius: 20px;
+	border-radius: 20px 20px 0 0;
 	padding-left: 40px;
+	box-shadow:0 8px 16px 0 rgba(0,0,0,0.7),0 6px 20px 0 rgba(0,0,0,0.3);
 }
 .img-left{
 	width: 560px;
@@ -169,6 +172,7 @@ p{
 	border-radius: 20px;
 	margin-right: 120px;
 	margin-top: 50px;
+	box-shadow:0 8px 16px 0 rgba(0,0,0,0.7),0 6px 20px 0 rgba(0,0,0,0.3);
 }
 .list-right ul li{
 	margin: 30px;
@@ -182,6 +186,10 @@ p{
 	font-family: 华文行楷;
 	border-bottom: 1px solid black;
 }
+.jiantou{
+	margin-top: 160px;
+	margin-left: 430px;
+}
 /* 特别提示 */
 .list-bottom{
 	float: right;
@@ -190,6 +198,7 @@ p{
 	height: 120px;
 	border-radius: 20px;
 	margin-right: 120px;
+	box-shadow:0 8px 16px 0 rgba(0,0,0,0.7),0 6px 20px 0 rgba(0,0,0,0.3);
 }
 .list-bottom p{
 	font-size: 12px;
@@ -217,11 +226,13 @@ p{
 .list2 ul li:hover{
 	transform: scale(1.2,1.2);
 }
+/* 频道广场 */
 .link{
 	width: 960px;
 	height: 522px;
 	background-color: rgba(222,184,135,0.6);
 	margin: 20px auto 0;
+	box-shadow:0 8px 16px 0 rgba(0,0,0,0.7),0 6px 20px 0 rgba(0,0,0,0.3);
 }
 .link ul li a{
 	float: right;
@@ -236,7 +247,8 @@ p{
 	height: 720px;
 	background-color: #e4e8f4;/* rgba(222,184,135,0.6); */
 	margin:20px auto;
-	border-radius: 20px;
+	border-radius:0 0 20px 20px;
+	box-shadow:0 8px 16px 0 rgba(0,0,0,0.7),0 6px 20px 0 rgba(0,0,0,0.3);
 }
 .contact{
 	width: 728px;
@@ -280,7 +292,7 @@ p{
 .text .item2 input{
 	width: 100px;
 	height: 30px;
-	border: 1px solid #333333;
+	border: 0px solid #333333;
 	border-radius: 18px;
 	margin: 40px auto;
 	background-color:#FF7F50;
@@ -319,6 +331,7 @@ p{
 	margin-bottom: 2px; 
 	transform: translateX(-50PX);
 	transition: 0.5s;
+	box-shadow:0 8px 16px 0 rgba(0,0,0,0.7),0 6px 16px 0 rgba(0,0,0,0.3);
 }
 .list-left ul li a{
 	color: #000000;
@@ -338,6 +351,7 @@ p{
 	padding-top:2px;
 	/* clear: both; *//* 清除全部样式 */
 	text-align: center;
+	box-shadow:0 8px 16px 0 rgba(0,0,0,0.7),0 6px 20px 0 rgba(0,0,0,0.3);
 }
 .footer a{
 	color: white;
